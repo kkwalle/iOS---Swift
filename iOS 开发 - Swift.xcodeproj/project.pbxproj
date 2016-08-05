@@ -32,6 +32,7 @@
 		3DBAFFBE1D4B313400932FE7 /* 2-15-析构过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-15-析构过程.playground"; sourceTree = "<group>"; };
 		3DD7B8901D519A5700F6D07F /* 2-6-函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-6-函数.playground"; sourceTree = "<group>"; };
 		3DFAFF6A1D543CB500342A8E /* 2-7-闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-7-闭包.playground"; sourceTree = "<group>"; };
+		3DFAFF8B1D548ECC00342A8E /* 2-8-枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-8-枚举.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 				3D5A62771D49F67000506206 /* KKMPerson.swift */,
 				3DD7B8901D519A5700F6D07F /* 2-6-函数.playground */,
 				3DFAFF6A1D543CB500342A8E /* 2-7-闭包.playground */,
+				3DFAFF8B1D548ECC00342A8E /* 2-8-枚举.playground */,
 				3D76D8CD1D5086570013D96B /* 2-10-属性.playground */,
 				3D76D8CC1D504ABF0013D96B /* 2-9-类和结构体.playground */,
 				3DBAFFBE1D4B313400932FE7 /* 2-15-析构过程.playground */,
