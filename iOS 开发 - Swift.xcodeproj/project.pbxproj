@@ -33,6 +33,8 @@
 		3DD7B8901D519A5700F6D07F /* 2-6-函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-6-函数.playground"; sourceTree = "<group>"; };
 		3DFAFF6A1D543CB500342A8E /* 2-7-闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-7-闭包.playground"; sourceTree = "<group>"; };
 		3DFAFF8B1D548ECC00342A8E /* 2-8-枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-8-枚举.playground"; sourceTree = "<group>"; };
+		B480C9161D59E0E60080B941 /* 2-5-控制流.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-5-控制流.playground"; sourceTree = "<group>"; };
+		B480C9171D5ADED20080B941 /* 2-4-集合类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-4-集合类型.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,8 @@
 				3D09E9FA1CD0C0550085E970 /* ViewController.swift */,
 				3D5A62751D49F28300506206 /* KKCList.swift */,
 				3D5A62771D49F67000506206 /* KKMPerson.swift */,
+				B480C9171D5ADED20080B941 /* 2-4-集合类型.playground */,
+				B480C9161D59E0E60080B941 /* 2-5-控制流.playground */,
 				3DD7B8901D519A5700F6D07F /* 2-6-函数.playground */,
 				3DFAFF6A1D543CB500342A8E /* 2-7-闭包.playground */,
 				3DFAFF8B1D548ECC00342A8E /* 2-8-枚举.playground */,

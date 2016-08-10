@@ -19,7 +19,8 @@ func backwards(s1: String, s2: String) -> Bool {
     return s1 > s2
 }
 
-var names1 = names.sorted(isOrderedBefore: backwards)
+//swift3语法更新
+var names1 = names.sorted(by: backwards)
 
 
 //* 闭包表达式语法
@@ -28,27 +29,30 @@ var names1 = names.sorted(isOrderedBefore: backwards)
 //  }
 
 //* 闭包重写上述排序函数
-var names2 = names.sorted(isOrderedBefore: {(s1: String, s2: String) -> Bool in return s1 > s2})
+//swift3 语法更新
+var names2 = names.sorted(by: {(s1: String, s2: String)->Bool in return s1 > s2})
 for item in names2 {
     print(item)
 }
 
 //* 根据上下文推断类型
-var names3 = names.sorted(isOrderedBefore: {s1, s2 in return s1 > s2})
+//swift3 语法更新
+var names3 = names.sorted(by: {s1, s2 in return s1 > s2})
 for item in names3 {
     print(item)
 }
 
 //* 单表达式闭包隐式返回
-var name4 = names.sorted(isOrderedBefore: {s1, s2 in s1 > s2})
-for item in name4 {
+//swift3 语法更新
+var names4 = names.sorted(by: {s1, s2 in s1 > s2})
+for item in names4 {
     print(item)
 }
 
 //* 参数名称缩写功能, 可以通过 $0, $1 来顺序调用参数
 print("通过 $0, $1 来顺序调用参数")
-var name5 = names.sorted(isOrderedBefore: {$0 > $1})
-for item in name5 {
+var names5 = names.sorted(by: {$0 > $1})
+for item in names5 {
     print(item)
 }
 
@@ -57,8 +61,9 @@ for item in name5 {
 //Swift 的 String 类型为大于号 > 定义字符串实现, 其作为一个函数, 接受两个 String 类型的参数, 返回一个 Bool 类型的值, 正好与 Sorted 函数的第二个参数类型吻合, 所以可以简单传入一个 > , Swift 会自动推断要使用 > 的字符串实现
 
 print("运算符函数")
-var name6 = names.sorted(isOrderedBefore: >)
-for item in name6 {
+//swift3 语法更新
+var names6 = names.sorted(by: >)
+for item in names6 {
     print(item)
 }
 
