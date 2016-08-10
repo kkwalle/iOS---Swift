@@ -12,8 +12,6 @@
 		3D09E9FE1CD0C0550085E970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D09E9FC1CD0C0550085E970 /* Main.storyboard */; };
 		3D09EA001CD0C0550085E970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D09E9FF1CD0C0550085E970 /* Assets.xcassets */; };
 		3D09EA031CD0C0550085E970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D09EA011CD0C0550085E970 /* LaunchScreen.storyboard */; };
-		3D5A62761D49F28300506206 /* KKCList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A62751D49F28300506206 /* KKCList.swift */; };
-		3D5A62781D49F67000506206 /* KKMPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A62771D49F67000506206 /* KKMPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +22,6 @@
 		3D09E9FF1CD0C0550085E970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D09EA021CD0C0550085E970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D09EA041CD0C0550085E970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D5A62751D49F28300506206 /* KKCList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCList.swift; sourceTree = "<group>"; };
-		3D5A62771D49F67000506206 /* KKMPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMPerson.swift; sourceTree = "<group>"; };
 		3D5A62791D49F91F00506206 /* 2-14-构造过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-14-构造过程.playground"; sourceTree = "<group>"; };
 		3D76D8CC1D504ABF0013D96B /* 2-9-类和结构体.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-9-类和结构体.playground"; sourceTree = "<group>"; };
 		3D76D8CD1D5086570013D96B /* 2-10-属性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-10-属性.playground"; sourceTree = "<group>"; };
@@ -69,8 +65,6 @@
 			children = (
 				3D09E9F81CD0C0550085E970 /* AppDelegate.swift */,
 				3D09E9FA1CD0C0550085E970 /* ViewController.swift */,
-				3D5A62751D49F28300506206 /* KKCList.swift */,
-				3D5A62771D49F67000506206 /* KKMPerson.swift */,
 				B480C9171D5ADED20080B941 /* 2-4-集合类型.playground */,
 				B480C9161D59E0E60080B941 /* 2-5-控制流.playground */,
 				3DD7B8901D519A5700F6D07F /* 2-6-函数.playground */,
@@ -160,8 +154,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5A62781D49F67000506206 /* KKMPerson.swift in Sources */,
-				3D5A62761D49F28300506206 /* KKCList.swift in Sources */,
 				3D09E9FB1CD0C0550085E970 /* ViewController.swift in Sources */,
 				3D09E9F91CD0C0550085E970 /* AppDelegate.swift in Sources */,
 			);
